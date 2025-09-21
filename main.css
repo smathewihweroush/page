@@ -1,0 +1,52 @@
+h1, h2, p, details, a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+
+h1 {
+    color: black;
+    text-shadow: 3px 3px 10px darkslategray;
+    width: 80%;
+    margin: 0.75em 0em;;
+    padding: 6px;
+    
+}
+
+h1::after {
+    content: "";
+    border: solid 3px darkslategray;
+    border-radius: 1.5px;
+    margin-left: 2em;
+    height: 50%;
+}
+
+p {
+    margin: 0.5em;
+}
+
+.mainheader {
+    width: 100%;
+    background-color: darkslategrey;
+    position: sticky;
+    top: 0%;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    float: left;
+    padding: 0.5em;
+}
+
+.contentbox {
+    border-style: none none none solid;
+    border-color: darkslategray;
+    border-left-width: 5px;
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+
+    margin: auto;
+    padding: 1em 3em;
+}
+
+body {
+    margin: 0px;
+}
